@@ -143,6 +143,7 @@
                                         :nextPageUrl="$users->nextPageUrl()">
                                         
                                         </x-custom-pagination>
+                                        
                                     </div>
                                 </td>
                             </tr>

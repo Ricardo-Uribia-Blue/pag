@@ -20,6 +20,11 @@ return [
         'created' => 'Successfully created',
         'saved' => 'Saved successfully',
         'removed' => 'Successfully removed',
+        'de' => 'de',
+        'mostrando' => 'Mostrando',
+        'registros' => 'Registros',
+        'siguiente' => 'Siguiente',
+        'anterior' => 'Anterior',
     ],
 
     'users' => [
