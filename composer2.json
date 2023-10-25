@@ -1,0 +1,27 @@
+{
+    "name": "Ricardo-Uribia-Blue/custom-pagination",
+    "description": "Componente generico de paginacion que recibe parametros @props",
+    "version": "1.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Uribia",
+            "email": "dual.ricardo.uribia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": [],
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Ricardo-Uribia-Blue\\custom-pagination\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ricardo-Uribia-Blue\\custom-pagination\\CustomServiceProvider"
+            ]
+        }
+    }
+}

@@ -39,6 +39,16 @@
                                 <i class="mr-1 icon ion-md-add"></i>
                                 @lang('crud.common.create')
                             </a>
+                            <br>
+
+
+                            <livewire:modal-component 
+                            :title="'Título Personalizado'" 
+                            :boton="'Botón Personalizado'" 
+                            :archivoIncluido="'app.users.create'" />
+
+
+
                         </div>
                     </div>
                 </div>
