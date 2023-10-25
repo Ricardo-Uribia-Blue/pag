@@ -1,9 +1,14 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "name": "ricardo-uribia/custom-pagination-blade",
+    "type": "library",
+    "description": "Componente generico para paginacion que recibe parametros",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Uribia",
+            "email": "dual.ricardo.uribia@gmail.com"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
@@ -26,7 +31,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "PAG\\resources\\views\\components\\": "src/"
         }
     },
     "autoload-dev": {
@@ -51,7 +57,10 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [],
+            "providers" : [
+                "Pag\\App\\Providers\\AppServiceProvider"
+            ]
         }
     },
     "config": {
