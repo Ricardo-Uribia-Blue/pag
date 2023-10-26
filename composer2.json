@@ -9,8 +9,11 @@
             "email": "dual.ricardo.uribia@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": [],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "ricardo-uribia-blue/custom-pagination": "1.1.0"
+    },
     "autoload": {
         "files": [],
         "psr-4": {

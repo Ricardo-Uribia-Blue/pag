@@ -8,7 +8,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/yourusername/custom-pagination.git"
+      "url": "https://github.com/Ricardo-Uribia-Blue/pag.git"
     },
     "keywords": ["vue", "component"],
     "author": "Ricardo Rribia",
